@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tanishka's Website</title>
+        <link rel="icon" href="images/favicon.png" type="image/png">
+        <link rel="stylesheet" href = "style.css">
+        <script src = "script.js" defer></script>
+    </head>
+    <body>
+        <!--The navigation links at the top of the page-->
+        <nav>
+            <div id="navigation">
+                <a href="#"><img src="images/favicon.png" alt="Link to top of home page"></a>
+                <a href="#">HOME</a>
+                <a href="full_resume.html">FULL RESUME</a>
+                <a href="contact_info.html">CONTACT INFO</a>
+            </div>
+            <div id="page_nav">
+                <a href="#about_me">ABOUT ME </a>
+                <a href="#projects">PROJECTS </a>
+                <a href="#education">EDUCATION</a>
+                <a href="#languages">LANGUAGES</a>
+            </div>
+        </nav>
+        <!--The image that users first see when they enter. Citation provided in README file [1]-->
+        <img src="images/hero_image.png" alt="A picture of technology">
+        <!--About me section/article-->
+        <article id="about_me">
+            <h1>
+                ABOUT ME:
+            </h1>
+            <p>
+                My name is Tanishka Ghosh. I am a first year computer science student at Dalhousie University. I have lived in Nova Scotia for around 6 years now. I became interested in coding during the beginning of high school. 
+                Since then, I have been making small projects and trying to learn more about the field. The first language I ever learned was Python. Now, I have learned Java, bits of C and am currently learning about HTML and CSS. 
+                I hope to become a programmer after I finish university. Currently, I have a wide variety of areas I'm interested in but I hope to find employment in a job where I can face challenging problems as I enjoy doing that. 
+            </p>
+        </article>
+        <!--My projects section/article-->
+        <article id="projects">
+            <h1>
+                PROJECTS:
+            </h1>
+            <div id="overflow">
+                <table>
+                    <tr>
+                        <td><img src="images/tic-tac-toe.png" alt="Image of tictactoe game"></td>
+                        <td><img src="images/panda_shooter.png" alt="Image of panda shooter game"></td>
+                        <td><video controls><source src="media/rps.mp4"></video></td>
+                    </tr>
+                    <tr id="discription">
+                        <td>An image of a tic tac toe game made using Python and the tkinter library.</td> 
+                        <td>An image of a game made using Python and the Pygame library.
+                            The panda gains points by accurately shooting the bamboo shoots.
+                            The panda loses if the bamboo gets to the red line.</td> 
+                        <td>A video of a rock paper scissor game made using Python with the tkinter library.</td> 
+                    </tr>
+                </table>
+            </div>
+            <p><a href="https://github.com/Tanishka-G/Tani-G" target="_blank"> Github Link for more projects (is currently empty)</a></p>
+        </article>
+        <!--My education history section/article-->
+        <article id="education">
+            <h1>
+                EDUCATION:
+            </h1>
+            <p>
+                Dalhousie University<br>
+                2022-present<br>
+                Halifax, NS
+            </p>
+            <p>
+                Charles P. Allen High School<br>
+                2019-2022<br>
+                Bedford, NS
+            </p>
+        </article>
+        <!--Programming languages I know section/article-->
+        <article id="languages">
+            <h1>
+                LANGUAGES I KNOW:
+            </h1>
+            <p>
+                <ol>
+                    <li>Python</li>
+                    <ul>
+                        <li>Skill Level: Intermediate </li>
+                        <li>Experience: 3 years</li>
+                    </ul>
+                    <li>Java</li>
+                    <ul>
+                        <li>Skill Level: Intermediate </li>
+                        <li>Experience: 1 year</li>
+                    </ul>
+                    <li>HTML</li>
+                    <ul>
+                        <li>Skill Level: Beginner-Intermediate </li>
+                        <li>Experience: 2 months </li>
+                    </ul>
+                    <li>C</li>
+                    <ul>
+                        <li>Skill Level: Beginner </li>
+                        <li>Experience: 1.5 months</li>
+                    </ul>
+                    <li>CSS</li>
+                    <ul>
+                        <li>Skill Level: Beginner </li>
+                        <li>Experience: 3 weeks</li>
+                    </ul>
+                </ol>
+            </p>
+        </article>
+        
+    </body>
+    <!--Footer containing site map and arrow image that transports you to the top-->
+    <footer id="sitemap">
+        <p id="title">SITE MAP</p>
+        <a id="Header1" href="#">Home</a></div>
+        <a id="A1" href="#about_me">About me</a>
+        <a id="B1" href="#projects">Projects</a>
+        <a id="C1" href="#education">Education</a>
+        <a id="D1" href="#languages">Languages</a>
+        <a id="Header2" href="full_resume.html">Full Resume</a>
+        <a id="A2" href="full_resume.html#education">Education</a>
+        <a id="B2" href="full_resume.html#volunteer">Volunteer Experience</a>
+        <a id="C2" href="full_resume.html#skills">Skills</a>
+        <a id="D2" href="full_resume.html#awards">Awards</a>        
+        <a id="Header3" href="contact_info.html">Contact Info</a>  
+        <button id="night">Night Theme</button>
+        <button id="sky">Sky Theme</button>
+        <button id="land">Land Theme</button>
+    </footer>
+</html>

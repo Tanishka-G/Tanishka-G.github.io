@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tanishka's Website</title>
+        <link rel="icon" href="images/favicon.png">
+        <link rel="stylesheet" href = "style.css">
+        <script src = "script.js" defer></script>
+    </head>
+    <body>
+    <!--The navigation links at the top of the page-->
+        <nav>
+            <div id="navigation">
+                <a href="index.html"><img src="images/favicon.png" alt="Link to top of home page"></a>
+                <a href="index.html">HOME</a>
+                <a href="full_resume.html">FULL RESUME</a>
+                <a href="#">CONTACT INFO</a>
+            </div>
+        </nav>
+        <!--Section for my contact information-->
+        <article id="contact">
+            <h1>
+                Contact Information!
+            </h1>
+            <p>
+                <ul>
+                    <li><a href="mailto:tanishkaghosh1122@gmail.com">Personal Email</a></li>
+                    <li><a href="mailto:tn620502@dal.ca">University Email</a></li>
+                </ul>
+            </p>
+            <!--Thank you youtube video from Youtube. Citation provided in README file [2]-->
+            <div id="iframe">
+                <iframe width="840" height="472.5" src="https://www.youtube.com/embed/bBc4Imp258U"></iframe>
+            </div>
+            <!--Background music for the page. Citation provided in the README file [3]-->
+            <p id="audio">
+                Some random relaxing background music! <br>
+                <audio controls loop>
+                    <source src="media/background_music.mp3">
+                Your browser does not support the audio element.
+                </audio>
+            </p>
+        </article>
+        <!--Form-->
+        <p>You can leave a comment for me as well!</p>
+        <button id="help">?</button>
+        <p id="help_text"></p>
+        <form action="contact_info.html" target="_blank" method="POST">
+            <p>
+                <label for="first">First Name:</label>
+                <input type="text" name="first" id="first" placeholder="Jane">
+            </p>
+            <p>
+                <label for="last">Last Name:</label>
+                <input type="text" name="last" id="last" placeholder="Smith">
+            </p>
+            <p>
+                <label for="comment">Comment:</label>
+                <textarea type="text" name="comment" id="comment"></textarea>
+            </p>
+            <input type="submit" id="submit">
+        </form>
+        <h3>A Flower Photo Gallery ~ * ~</h3>
+        <div id="gallery">
+            <div><img src="images/flower1.jpg" alt="a yellow Dahlia pinnata"></div>
+            <div><img src="images/flower2.jpg" alt="a red Shoeblackplant"></div>
+            <div><img src="images/flower3.jpg" alt="a red Dahlia pinnata"></div>
+            <div><img src="images/flower4.jpg" alt="a yellow marrigold"></div>
+        </div>
+        <button id="fact">Random Fact!</button>
+        <div id="older">
+            <label for="age">How old are you?</label>
+            <input type="text" id="age">
+            <input type="button" value="Am I Older?" id="old">
+            <p id="answer"></p>
+        </div>
+        
+    </body>
+    <!--Footer containing site map and arrow linking to top of the page-->
+    <footer id="sitemap">
+        <p id="title">SITE MAP</p>
+        <a id="Header1" href="index.html">Home</a></div>
+        <a id="A1" href="index.html#about_me">About me</a>
+        <a id="B1" href="index.html#projects">Projects</a>
+        <a id="C1" href="index.html#education">Education</a>
+        <a id="D1" href="index.html#languages">Languages</a>
+        <a id="Header2" href="full_resume.html">Full Resume</a>
+        <a id="A2" href="full_resume.html#education">Education</a>
+        <a id="B2" href="full_resume.html#volunteer">Volunteer Experience</a>
+        <a id="C2" href="full_resume.html#skills">Skills</a>
+        <a id="D2" href="full_resume.html#awards">Awards</a>     
+        <a id="Header3" href="#">Contact Info</a>  
+        <button id="night">Night Theme</button>
+        <button id="sky">Sky Theme</button>
+        <button id="land">Land Theme</button>
+    </footer>
+</html>
