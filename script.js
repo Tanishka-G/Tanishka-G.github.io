@@ -92,7 +92,9 @@ function ageCompare() {
         document.getElementById("answer").innerText = "I am older";
     } else if (myAge < yourAge) {
         document.getElementById("answer").innerText = "You are older";
-    } else {
+    } else if (myAge == yourAge){
         document.getElementById("answer").innerText = "We are the same!";
+    } else{
+        document.getElementById("answer").innerText = "Try again....not an integer";
     }
 }
