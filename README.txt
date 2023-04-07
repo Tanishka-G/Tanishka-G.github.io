@@ -114,12 +114,11 @@ script.js
 Contains the javascript in the website.
 Lines 1-7: (EVENT HANDLER) Uses an event listener to see if the "?" help button is pressed in the contact_info.html page.
 Lines 9-68: (COLOR CHANGER) Contains the code for the three color changer buttons. 
-function nightTheme (line 26) changes the background color and the text color on the page when the night theme button is pressed. No input.
-function skyTheme (line 45) changes the background color and the text color on the page when the sky theme button is pressed. No input.
-function landTheme (line 51) changes the background color and the text color on the page when the land theme button is pressed. No input.
-Lines 70-76: (NOTIFICATION) Contains a notification. When the random fact button is pressed, it outputs an alert syaing a random fact.
-Lines 79-100: (CONDITIONAL) Is the JS componenent to see if someone is older than me or not. Takes in the value from what the user inputed in the text feild. 
-The function: ageCompare() then uses IF conditionals to check if the age inputed is older than my age or not. It then changes the innerText of the paragraph with id answer to the corresponding messages:
+function nightTheme (line 26) changes the background color and the text color on the page when the night theme button is pressed. No input. Uses the night color theme.
+function skyTheme (line 45) changes the background color and the text color on the page when the sky theme button is pressed. No input. Uses the sky color theme.
+function landTheme (line 51) changes the background color and the text color on the page when the land theme button is pressed. No input. Uses the land color theme.
+Lines 70-76: (NOTIFICATION) Sends a notification. When the random fact button is pressed, it outputs an alert saying a random fact. (Rudolph the red nosed reindeer...is actually a girl?)
+Lines 79-100: (CONDITIONAL) Is the JS componenent to see if someone is older than me or not. Takes in the value from what the user inputed in the text feild. The function: ageCompare() then uses IF conditionals to check if the age inputed is older than my age or not. It then changes the innerText of the paragraph with id answer to the corresponding messages:
 I am older -- If the age entered is less than mine
 You are older -- if the age entered is more than mine
 We are the same! -- if the age entered is the same
@@ -127,7 +126,7 @@ Try again....not an integer -- if nothing else matched up.
 
 
 File Structure:
-A1_tn620502
+A3_tn620502
         -index.html
         -contact_info.html
         -full_resume.html
